@@ -1,16 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+
 .color-pick__input{
     height: 50px;
     padding: 8px;
 }
 .generator__title{
-    font-size: x-large;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .generator__title, .generator__color-pick{
     text-align: center;
-}
-body{
-    background-color: grey;
 }
 
 .generator{
